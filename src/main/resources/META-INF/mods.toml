@@ -1,0 +1,28 @@
+modLoader="javafml" 
+loaderVersion="[37,)"
+license="All rights reserved"
+issueTrackerURL="https://github.com/SpacePython12/teakettle/issues/new"
+[[mods]]
+    modId="TeaKettle"
+    version="${file.jarVersion}"
+    displayName="TeaKettle Mod"
+    displayURL="https://github.com/SpacePython12/teakettle"
+    credits="Thanks for this mod goes to the developers of Py4J, without them this would not be possible"
+    authors="SpacePython12" #optional
+    description='''
+    A Minecraft mod that integrates with Python, allowing users to write Python scripts to control Minecraft.
+
+    Please, PLEASE tell me if there are any bugs.
+    '''
+[[dependencies.teakettle]]
+    modId="forge"
+    mandatory=true
+    versionRange="[37,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.teakettle]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.17.1,1.18)"
+    ordering="NONE"
+    side="BOTH"
